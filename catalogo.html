@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>Catálogo - JoelsonFlix</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">🎬 JoelsonFlix</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="catalogo.html" class="nav-link active">Catálogo</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="catalog">
+            <div class="container">
+                <h1>Catálogo de Filmes</h1>
+                <p class="catalog-subtitle">Passe o mouse sobre os filmes para assistir aos trailers</p>
+                
+                <div class="movies-grid">
+                    <div class="movie-card">
+                        <div class="movie-poster">
+                            <img src="https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="The Matrix" class="poster-img">
+                            <video class="trailer-video" muted loop>
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="movie-info">
+                            <h3>The Matrix</h3>
+                            <p>1999 • Ficção Científica</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card">
+                        <div class="movie-poster">
+                            <img src="./public/images/Inception.jpg" alt="Inception" class="poster-img">
+                            <video class="trailer-video" muted loop>
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="movie-info">
+                            <h3>Inception</h3>
+                            <p>2010 • Ficção Científica</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card">
+                        <div class="movie-poster">
+                            <img src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg" alt="The Shawshank Redemption" class="poster-img">
+                            <video class="trailer-video" muted loop>
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="movie-info">
+                            <h3>The Shawshank Redemption</h3>
+                            <p>1994 • Drama</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card">
+                        <div class="movie-poster">
+                            <img src="https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg" alt="Pulp Fiction" class="poster-img">
+                            <video class="trailer-video" muted loop>
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="movie-info">
+                            <h3>Pulp Fiction</h3>
+                            <p>1994 • Crime</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card">
+                        <div class="movie-poster">
+                            <img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" alt="Avengers: Infinity War" class="poster-img">
+                            <video class="trailer-video" muted loop>
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="movie-info">
+                            <h3>Avengers: Infinity War</h3>
+                            <p>2018 • Ação</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card">
+                        <div class="movie-poster">
+                            <img src="https://image.tmdb.org/t/p/w500/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg" alt="Interstellar" class="poster-img">
+                            <video class="trailer-video" muted loop>
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="movie-info">
+                            <h3>Interstellar</h3>
+                            <p>2014 • Ficção Científica</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CineCatalog. Todos os direitos reservados Joelson G.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
