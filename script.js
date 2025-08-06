@@ -23,6 +23,9 @@ function initializeMovieCards() {
             // Preload video on hover
             poster.addEventListener('mouseenter', function() {
                 video.load(); // Ensure video is loaded
+                video.muted = false // tirando mute
+                video.volume = 0.5 //colocando som
+                
                 video.play().catch(e => {
                     console.log('Video autoplay prevented:', e);
                 });
